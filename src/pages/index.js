@@ -1,4 +1,5 @@
 import React from 'react';
+import config from '../../config'
 // import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
@@ -11,9 +12,11 @@ const IndexPage = () => (
     <>
       <div id="overlay" />
       <div id="main">
-        <Header />
-        <Unsplash keywords="wallpapers, nature, sky, night" height="400" style={{ lineHeight: 2 }} expand >
-        
+        <Unsplash keywords="wallpapers, nature, sky, night" expand >
+        <h1 style={{fontSize: "4em", fontWeight: "900", paddingBottom: "2rem"}}>{config.heading1}</h1>
+        <h2 style={{fontSize: "2.5em", fontWeight: "300"}}>{config.heading2}</h2>
+        <br />
+        <p style={{fontSize: "1.5em"}}>{config.siteTitle}</p>
         </Unsplash>
         <Footer />
       </div>
