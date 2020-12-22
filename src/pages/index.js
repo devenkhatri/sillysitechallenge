@@ -13,10 +13,10 @@ const IndexPage = () => (
       <div id="overlay" />
       <div id="main">
         <Unsplash keywords="wallpapers, nature, sky, night" expand >
-        <h1 style={{fontSize: "4em", fontWeight: "900", paddingBottom: "2rem"}}>{config.heading1}</h1>
-        <h2 style={{fontSize: "2.5em", fontWeight: "300"}}>{config.heading2}</h2>
-        <br />
-        <p style={{fontSize: "1.5em"}}>{config.siteTitle}</p>
+          <h1 style={{fontSize: "4em", fontWeight: "900", paddingBottom: "2rem", lineHeight: "initial"}}>{config.heading1}</h1>
+          <h2 style={{fontSize: "2.5em", fontWeight: "300", lineHeight: "initial"}}>{config.heading2}</h2>
+          <br />
+          <p style={{fontSize: "1.5em", lineHeight: "initial"}}>{config.siteTitle}</p>
         </Unsplash>
         <Footer />
       </div>
