@@ -4,14 +4,16 @@ import React from 'react';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Unsplash from 'react-unsplash-wrapper'
 
 const IndexPage = () => (
-  <Layout>
+  <Layout darkText>
     <>
       <div id="bg" />
       <div id="overlay" />
       <div id="main">
-        <Header />          
+        <Header />     
+        <Unsplash keywords="wallpapers, nature, sky, night" img expand />
         <Footer />
       </div>
     </>

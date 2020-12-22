@@ -3,7 +3,7 @@ import React from 'react';
 import config from '../../config';
 export default function Header() {
   return (
-    <header id="header">
+    <header id="header" style={{top: "-14em"}}>
       <h1>{config.heading1}</h1>
       <h2>{config.heading2}</h2>
       <br />
