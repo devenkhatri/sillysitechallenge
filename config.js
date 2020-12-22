@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/sillysitechallenge/`, // This path is subpath of your hosting https://domain/portfolio
-  heading1: `Welcome to the tour of the whole world`,
-  heading2: `Concentrate closely and enjoy. See below, you are touring the world`,
+  heading1: `Random UnSplash Images Generator`,
+  heading2: `Refresh the page to get a new image`,
 
   authorName: 'Gatsby Silly Site Challenge',
   authorHeading: 'Web Agency',

@@ -9,11 +9,12 @@ import Unsplash from 'react-unsplash-wrapper'
 const IndexPage = () => (
   <Layout darkText>
     <>
-      <div id="bg" />
       <div id="overlay" />
       <div id="main">
-        <Header />     
-        <Unsplash keywords="wallpapers, nature, sky, night" img expand />
+        <Header />
+        <Unsplash keywords="wallpapers, nature, sky, night" height="400" style={{ lineHeight: 2 }} expand >
+        
+        </Unsplash>
         <Footer />
       </div>
     </>
